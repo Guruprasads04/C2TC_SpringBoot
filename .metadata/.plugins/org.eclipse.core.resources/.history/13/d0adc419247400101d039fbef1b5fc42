@@ -1,0 +1,23 @@
+package com.tnsif.springboot;
+import org.springframework.stereotype.Component;
+
+@Component
+public class College {
+private Student student;
+ 
+public void setStudent(Student student) {
+	this.student = student;
+}
+
+public College()
+ {
+	
+	 System.out.println("colg obj is created");
+ }
+
+public void display() {
+	// TODO Auto-generated method stub
+	System.out.println("MVIT");
+	
+}
+}

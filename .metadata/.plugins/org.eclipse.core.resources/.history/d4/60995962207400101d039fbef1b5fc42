@@ -1,0 +1,12 @@
+package com.tnsif.springboot;
+import org.springframework.stereotype.Component;
+
+@Component
+public class College {
+ private Student student;
+ public College()
+ {
+	
+	 System.out.println("colg obj is created");
+ }
+}
