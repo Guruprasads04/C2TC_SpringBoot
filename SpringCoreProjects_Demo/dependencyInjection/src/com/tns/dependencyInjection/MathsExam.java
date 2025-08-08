@@ -10,15 +10,15 @@ public class MathsExam {
 		ApplicationContext con=new ClassPathXmlApplicationContext("beans.xml");
 		
 		//setter injection
-		Student th=con.getBean("tamil",Student.class);
-		Student rv=con.getBean("reventh",Student.class);
+		Student th=con.getBean("Guru",Student.class);
+		Student rv=con.getBean("Prasad",Student.class);
 		
 		th.showInfo();
 		rv.showInfo();
 		
 		//Constructor injection
-		Student1 sk=con.getBean("sakthi",Student1.class);
-		Student1 hm=con.getBean("hema",Student1.class);
+		Student1 sk=con.getBean("livya",Student1.class);
+		Student1 hm=con.getBean("retz",Student1.class);
 		
 		sk.showInfo();
 		hm.showInfo();
